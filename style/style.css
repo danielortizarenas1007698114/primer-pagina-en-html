@@ -1,0 +1,115 @@
+body{
+    font-family: open sans-serif; /* tipo de letra*/
+    font-size: 16px; /*tamaño de la letra*/
+    width: 80%; /* esto es para el tamaño de la pagina que desea ocupar*/
+    margin: auto; /*esto es para centrarlo o para establecer la direccion que desea que se encuentre la pagina */
+    color: red;
+}
+
+   
+
+/*em unidad de medida (preferible para trabjar en margin)*/
+header h1 {
+    color: #753784;
+    border: 1px solid red;
+    margin-top: 3em;
+    margin-left: 11.5em;
+    margin-right: 3.5em;
+    padding: 0em 0em 0em 2em;
+
+}
+header nav {
+
+padding: 0.1em 0;
+margin: 5em 0.2em 0em 12em;
+
+}
+header img{
+    float: left;
+    border-radius: 45%
+}
+  
+header nav ul {
+    list-style: none;     
+    padding: 0.1em 0;
+    
+}
+header nav ul li{
+    display: inline-block;
+    background: #753784;
+    margin-right: 0.005em;
+    border:1px solid green;
+    padding: 0.2em 0.5em;
+    width: 8.6em;
+}
+header nav ul li a{
+    display: inline-block;
+    color: #FFA21A;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.1em 0em;
+    text-align: center;
+    width: 8.6em;
+}
+header nav ul li a:hover{
+    background: #EB4E42;
+    color: white;
+}    
+header img{
+    border-radius: 50%;
+    float: left;
+    margin-left: 1.5em;
+    margin-top: 1em;
+
+}
+
+
+
+header {
+    background: #99FFA8; /* color de fondo*/
+    border: 10px #FFA21A; /* borde :v*/
+    overflow: auto;
+}
+
+section{
+    background: #9BE88B;
+    border : 2px rgb(209, 103, 22);   
+    padding: 2em;
+    float: left;
+    width: 61%;
+}    
+footer{
+    background: #D5FFA7;
+    border: rgb(210, 255, 12);
+    clear: both;
+}
+footer #up{
+    background: #EB4E42;
+    padding-top: 1em; 
+    padding-bottom: 0.5em;
+}
+footer #down{
+    background: #753784;
+    padding-top: 0.5em;
+    padding-bottom: 1em; 
+}
+footer p 
+{
+    text-align: center;
+}
+aside{
+
+    background: #DCE88B;
+    border: #EB4E42;
+    padding: 2em;
+    margin-left: 67%
+}
+#main {
+    border: 1px solid red;
+    background: #9BE88B;
+}
+.xd {
+    color: white;
+    background: black;
+    border: 2px #DCE88B;
+}
